@@ -6,7 +6,7 @@ import {ref, reactive, onMounted} from "vue";
   // })
   const guitarras = ref([]);
 
-  onMounted( () => {
+  onMounted(() => {
     guitarras.value = db;
   })
 </script>
